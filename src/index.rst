@@ -1,27 +1,27 @@
-K8s TM Integration
-==================
+.. OSOUI-Compose-Files documentation master file, created by
+   sphinx-quickstart on Mon Dec 17 14:01:07 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-This project defines the integration between the TMC prototype (https://github.com/ska-telescope/tmc-prototype) and the Webjive application (https://github.com/ska-telescope/ska-engineering-ui-compose-utils) on Kubernetes.
+Integrated OSO-UI / TMC container environment
+==============================================
+
+This project defines a container environment that integrates OSO-UI
+applications with TMC devices and a Tango control system. It
+defines a set of docker-compose configurations for OSO-UI applications
+and their dependencies so that a test integrated system can be
+instantiated on a developer's laptop or workstation.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   helm
-   templates
-   resources
+   services
+   usage
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Readme:
+Prerequsities
+-------------
 
-   README
+To use this project, Docker >= v18 and GNU Make must be installed.
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
