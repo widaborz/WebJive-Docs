@@ -8,6 +8,7 @@ The definition is a declarative object describing the basic characteristics of a
 
 Formal definitions are given below, but we'll start with an example demonstrating the basic idea. Note how the device is set in a single input, which publishes it to a variable that's available to the other inputs.
 
+.. code-block:: javascript
 const definition = {
   type: "MOTOR_CONTROL",
   name: "Motor Control",
@@ -23,13 +24,11 @@ const definition = {
       device: "$device",
       attribute: "Position"
     },
-
     turnRight: {
       type: "command",
       device: "$device",
       command: "TurnRight"
     },
-
     turnLeft: {
       type: "command",
       device: "$device",
@@ -37,6 +36,8 @@ const definition = {
     }
   }
 }
+
+
 
 The render method of the component implementation may look something like this:
 
@@ -76,7 +77,7 @@ Widget Definition
 |inputs       |            |An object where the keys are input names and the values are any of the input definitions below.|
 +-------------+------------+-----------------------------------------------------------------------------------------------+
 
-.. _h5847556c74124dba303c6b5218556f:
+
 
 Input Definitions
 =================
