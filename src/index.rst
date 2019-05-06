@@ -26,9 +26,8 @@ Usage
 npm install
 ```
 3. Type 
-
 ```sh
- npm start
+npm start
 ```
 Minimum node version: 7.6 (introduced async/wait)
 

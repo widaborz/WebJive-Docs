@@ -67,6 +67,15 @@ The render method of the component implementation may look something like this:
 Widget Definition
 =====
 
++---+---+--+
+| Key  | Type |Description |
++===+===+===+
+| type| string | Type identifier for the widget. Must be unique (e.g. "ATTRIBUTE_PLOT".) |
+| name | string | The name of the widget shown to the user (e.g. "Attribute Plot".) |
+| defaultWidth | number | Default width (in number of tiles) |
+| defaultHeight | number | Default height (in number of tiles) | 
+| inputs || An object where the keys are input names and the values are any of the input definitions below. |
+
 
 | Key | Type | Description 
 | ------ | ------ |
