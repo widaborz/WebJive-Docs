@@ -22,14 +22,14 @@ Usage
 
 1. Clone the repository.
 2. Run 
-
-.. code-block:: sh npm install
-
+```sh
+npm install
+```
 3. Type 
 
-.. code-block:: sh 
+```sh
  npm start
-
+```
 Minimum node version: 7.6 (introduced async/wait)
 
 Verified working node version: 9.11.2 (currently used by the dockerfile)
