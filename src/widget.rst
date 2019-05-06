@@ -4,7 +4,7 @@ How to create a widget
 A widget is a bundle consisting of two objects: a definition and a React component. The bundle is typically exported from a file:
 
 
-.. code-block:: console
+.. code-block:: html
     const definition = ...;
     class TheComponent extends React.Component ...
 
@@ -14,7 +14,7 @@ The definition is a declarative object describing the basic characteristics of a
 
 Formal definitions are given below, but we'll start with an example demonstrating the basic idea. Note how the device is set in a single input, which publishes it to a variable that's available to the other inputs.
 
-.. code-block:: console
+.. code-block:: html
     const definition = {
       type: "MOTOR_CONTROL",
       name: "Motor Control",
