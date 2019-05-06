@@ -104,8 +104,8 @@ html_context = {
     'logo': 'img/logo.jpg',
     'theme_logo_only': True,
     'display_github': True,  # Integrate GitHub
-    'github_user': 'ska-telescope',  # Username
-    'github_repo': 'k8s-integration',  # Repo name
+    'github_user': 'widaborz',  # Username
+    'github_repo': 'WebJive-Docs',  # Repo name
     'github_version': 'master',  # Version
     'conf_py_path': '/docs/src/',  # Path in the checkout to the docs root
 }
