@@ -32,6 +32,7 @@ Usage
 3. Type 
 
 .. code-block:: bash
+
  npm start
 
 
