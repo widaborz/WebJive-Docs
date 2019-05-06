@@ -46,7 +46,7 @@ Formal definitions are given below, but we'll start with an example demonstratin
 
 
 The render method of the component implementation may look something like this:
-.. code-block:: console
+.. code-block:: html
     render() {
       const {
         position,
