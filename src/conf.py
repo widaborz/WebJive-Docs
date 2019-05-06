@@ -53,9 +53,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'OSO-UI/TMC Integration'
-copyright = '2019, OSO-UI Team'
-author = 'Stewart Williams'
+project = 'WebJive'
+copyright = '2019, WebJive'
+author = 'WebJive'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -102,8 +102,8 @@ html_context = {
     'logo': 'img/logo.jpg',
     'theme_logo_only': True,
     'display_github': True,  # Integrate GitHub
-    'github_user': 'ska-telescope',  # Username
-    'github_repo': 'ska-engineering-ui-compose-utils',  # Repo name
+    'github_user': 'widaborz',  # Username
+    'github_repo': 'WebJive-Docs',  # Repo name
     'github_version': 'master',  # Version
     'conf_py_path': '/docs/src/',  # Path in the checkout to the docs root
 }
