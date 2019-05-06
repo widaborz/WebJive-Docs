@@ -14,12 +14,12 @@ Usage
 
 1. Clone the repository.
 2. Run 
-.. code-block:: console
+.. code:: javascript
 npm install
 
 3. Type 
-.. code-block:: console
-npm start`
+.. code:: cpp
+npm start
 
 Minimum node version: 7.6 (introduced async/wait)
 

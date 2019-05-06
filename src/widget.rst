@@ -65,7 +65,7 @@ The render method of the component implementation may look something like this:
 
 
 Widget Definition
-==
+====
 
 
 +-----------------+------------------------------------------------+

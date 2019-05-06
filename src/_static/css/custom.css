@@ -28,7 +28,7 @@
 }
 
 .local-toc ul li a:hover {
-        background-color: rgb(0, 174, 239);
+        background-color: #82be00;
 }
 
 .wy-side-nav-search a{
@@ -42,7 +42,7 @@
       padding-top: 40px;
 }
 
-.ska-logo, ska-logo:hover{
+.max4-logo, max4-logo:hover{
 	background-attachment: scroll;
 	background-clip: border-box;
 	background-color: rgb(255, 255, 255);

@@ -41,7 +41,8 @@ https://webjive-demo.maxiv.lu.se/demodb (log in with demo/demo)
 For developers
 =====
 
-* [How to create a widget]
+.. toctree::
+    widget
 
 Authors
 =====
