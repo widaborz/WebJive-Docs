@@ -65,9 +65,17 @@ The render method of the component implementation may look something like this:
 
 
 Widget Definition
-==
+=====
 
-## Widget Definition
+
+| Key | Type | Description 
+| ------ | ------ |
+| type | [string | Type identifier for the widget. Must be unique (e.g. "ATTRIBUTE_PLOT".)
+| Github | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 | Key | Type | Description
 |-|-|-
