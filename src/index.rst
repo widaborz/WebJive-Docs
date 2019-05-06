@@ -3,21 +3,58 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Integrated OSO-UI / TMC container environment
+WebJive
 ==============================================
 
-This project defines a container environment that integrates OSO-UI
-applications with TMC devices and a Tango control system. It
-defines a set of docker-compose configurations for OSO-UI applications
-and their dependencies so that a test integrated system can be
-instantiated on a developer's laptop or workstation.
+Description
+=====
+
+With this device explorer built on TangoGQL, you can:
+
+1. View a list of all Tango devices
+2. View and modify device properties
+3. View and modify device attributes
+4. View and execute device commands
+5. Create web interfaces for interacting with Tango devices (on /&lt;tangoDB&gt;/dashboard)
+
+Usage
+=====
+
+1. Clone the repository.
+2. Run 
+.. code-block:: console
+npm install
+
+3. Type 
+.. code-block:: console
+npm start`
+
+Minimum node version: 7.6 (introduced async/wait)
+
+Verified working node version: 9.11.2 (currently used by the dockerfile)
+
+Online demo
+=====
+
+https://webjive-demo.maxiv.lu.se/demodb (log in with demo/demo)
+
+For developers
+=====
+
+* [How to create a widget]
+
+Authors
+=====
+
+WebJive was written by the KITS Group at MAX IV Laboratory .
+
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   services
-   usage
+   widget
 
 
 Prerequsities
