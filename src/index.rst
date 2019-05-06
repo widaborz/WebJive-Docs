@@ -23,13 +23,12 @@ Usage
 1. Clone the repository.
 2. Run 
 
-.. code-block:: sh 
-npm install
+.. code-block:: sh npm install
 
 3. Type 
 
-.. code-block:: sh
-npm start
+.. code-block:: sh 
+ npm start
 
 Minimum node version: 7.6 (introduced async/wait)
 
