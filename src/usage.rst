@@ -1,69 +1,42 @@
+Description
+=====
+
+With this device explorer built on TangoGQL, you can:
+
+1. View a list of all Tango devices
+2. View and modify device properties
+3. View and modify device attributes
+4. View and execute device commands
+5. Create web interfaces for interacting with Tango devices (on /&lt;tangoDB&gt;/dashboard)
+
 Usage
 =====
 
-To pull the required Docker images from the SKA Docker registry, execute:
-
+1. Clone the repository.
+2. Run 
 .. code-block:: console
+npm install
 
-   # download all required Docker images
-   make pull
-
-Optional: the images can be pulled from an alternate registry and/or
-account by supplying the DOCKER_REGISTRY_HOST and DOCKER_REGISTRY_USER
-Makefile variables respectively, e.g.,
-
+3. Type 
 .. code-block:: console
+npm start`
 
-   # download foo/tango-cpp, foo/tango-jive, etc. from a registry at
-   # localhost:5000
-   make DOCKER_REGISTRY_HOST=localhost:5000 DOCKER_REGISTRY_USER=foo pull
+Minimum node version: 7.6 (introduced async/wait)
 
-To start WebJive and a minimal Tango system, execute:
+Verified working node version: 9.11.2 (currently used by the dockerfile)
 
-.. code-block:: console
+Online demo
+=====
 
-   # start WebJive and a Tango control system
-   make up
+https://webjive-demo.maxiv.lu.se/demodb (log in with demo/demo)
 
-To start TMC devices, execute:
+For developers
+=====
 
-.. code-block:: console
+* [How to create a widget](Widgets.md)
 
-   # start TMC devices
-   make tmc
+Authors
+=====
 
-Optional applications and device servers can be launched by calling the
-*start* make target followed by the name of the service. For example:
+WebJive was written by the KITS Group at MAX IV Laboratory .
 
-.. code-block:: console
-
-   # run Jive
-   make start jive
-   # run tangotest
-   make start tangotest
-
-To display the status of the Docker services, execute
-
-.. code-block:: console
-
-   # print status of Docker services
-   make status
-
-Running services can be stopped individually or as a whole using the
-*stop* make target or *down* make target respectively. For instance,
-
-.. code-block:: console
-
-   # stop just the tangotest device server, leaving other services running
-   make stop tangotest
-   # stop all services and tear down the system
-   make down
-
-After starting the WebJive containers and any required additional containers, navigate to
-`http://localhost:22484/testdb` to access WebJive. The following credentials can be used:
-
-Username
-    user1
-
-Password
-    abc123
