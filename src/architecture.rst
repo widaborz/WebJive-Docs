@@ -18,7 +18,9 @@ In the diagram above, an overview of WebJive architecture has been shown.
 
 #. *WebJive Architecture diagram* 
 
-**webjive**  is a raw:: html <a href="https://reactjs.org/" target="_blank">react</a>  client that permits to explore Tango devices and to create custom dashboards, using a collection of widgets. webjive accesses to the Tango Control Framework through \ |STYLE6|\ . The communication between webjive and tangogql is managed by a library into webjive. \ |STYLE7|\  is a \ |LINK6|\  interface for Tango.
+**webjive**  is a React_  client that permits to explore Tango devices and to create custom dashboards, using a collection of widgets. webjive accesses to the Tango Control Framework through \ |STYLE6|\ . The communication between webjive and tangogql is managed by a library into webjive. \ |STYLE7|\  is a \ |LINK6|\  interface for Tango.
+
+.. _React: https://reactjs.org/
 
 In order to sends command and save dashboards, it is necessary to login to the system. webjive uses \ |STYLE8|\  to manage users. \ |STYLE9|\  accesses to LDAP repository or JSON file to retrieve user information. 
 
