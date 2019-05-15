@@ -4,13 +4,13 @@ WebJive Architecture
 
 WebJive is composed of four projects: 
 
-#. **webjive**  .. _link: https://gitlab.com/MaxIV/webjive
+#. **webjive**  \ |LINK1|\ 
 
-#. **WebJive Dashboards**  .. _link: https://gitlab.com/MaxIV/dashboard-repo
+#. **WebJive Dashboards**  \ |LINK2|\ 
 
-#. **WebJive Auth**  .. _link: https://gitlab.com/MaxIV/webjive-auth
+#. **WebJive Auth**  \ |LINK3|\ 
 
-#. **web-maxiv-tangogql**  .. _link: https://gitlab.com/MaxIV/web-maxiv-tangogql
+#. **web-maxiv-tangogql**  \ |LINK4|\ 
 
 In the diagram above, an overview of WebJive architecture has been shown. 
 
@@ -18,7 +18,7 @@ In the diagram above, an overview of WebJive architecture has been shown.
 
 #. *WebJive Architecture diagram* 
 
-\ |STYLE5|\  is a \ |LINK5|\  client that permits to explore Tango devices and to create custom dashboards, using a collection of widgets. webjive accesses to the Tango Control Framework through \ |STYLE6|\ . The communication between webjive and tangogql is managed by a library into webjive. \ |STYLE7|\  is a \ |LINK6|\  interface for Tango.
+**webjive**  is a raw:: html <a href="https://reactjs.org/" target="_blank">react</a>  client that permits to explore Tango devices and to create custom dashboards, using a collection of widgets. webjive accesses to the Tango Control Framework through \ |STYLE6|\ . The communication between webjive and tangogql is managed by a library into webjive. \ |STYLE7|\  is a \ |LINK6|\  interface for Tango.
 
 In order to sends command and save dashboards, it is necessary to login to the system. webjive uses \ |STYLE8|\  to manage users. \ |STYLE9|\  accesses to LDAP repository or JSON file to retrieve user information. 
 
@@ -28,7 +28,7 @@ The dashboards created by the user logged in the system, are stored in a \ |LINK
 .. bottom of content
 
 
-.. |STYLE4| replace:: *WebJive Architecture diagram*
+
 
 .. |STYLE5| replace:: **webjive**
 
@@ -43,8 +43,21 @@ The dashboards created by the user logged in the system, are stored in a \ |LINK
 .. |STYLE10| replace:: **dashboard-repo**
 
 
+.. |LINK1| raw:: html
 
+    <a href="https://gitlab.com/MaxIV/webjive" target="_blank">https://gitlab.com/MaxIV/webjive</a>
 
+.. |LINK2| raw:: html
+
+    <a href="https://gitlab.com/MaxIV/dashboard-repo" target="_blank">https://gitlab.com/MaxIV/dashboard-repo</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://gitlab.com/MaxIV/webjive-auth" target="_blank">https://gitlab.com/MaxIV/webjive-auth</a>
+
+.. |LINK4| raw:: html
+
+    <a href="https://gitlab.com/MaxIV/web-maxiv-tangogql" target="_blank">https://gitlab.com/MaxIV/web-maxiv-tangogql</a>
 
 .. |LINK5| raw:: html
 
