@@ -4,23 +4,19 @@ WebJive Architecture
 
 WebJive is composed of four projects: 
 
-#. **webjive**  https://gitlab.com/MaxIV/webjive_
-.. _https://gitlab.com/MaxIV/webjive: https://gitlab.com/MaxIV/webjive
+#. **webjive**  https://gitlab.com/MaxIV/webjive
 
-#. **WebJive Dashboards**  https://gitlab.com/MaxIV/dashboard-repo_
-.. _https://gitlab.com/MaxIV/dashboard-repo: https://gitlab.com/MaxIV/dashboard-repo
+#. **WebJive Dashboards**  https://gitlab.com/MaxIV/dashboard-repo
 
-#. **WebJive Auth**  https://gitlab.com/MaxIV/webjive-auth_
-.. _https://gitlab.com/MaxIV/webjive-auth: https://gitlab.com/MaxIV/webjive-auth
+#. **WebJive Auth**  https://gitlab.com/MaxIV/webjive-auth
 
-#. **web-maxiv-tangogql**  https://gitlab.com/MaxIV/web-maxiv-tangogql_
-.. _https://gitlab.com/MaxIV/web-maxiv-tangogql: https://gitlab.com/MaxIV/web-maxiv-tangogql
+#. **web-maxiv-tangogql**  https://gitlab.com/MaxIV/web-maxiv-tangogql
 
 In the diagram above, an overview of WebJive architecture has been shown. 
 
 \ |IMG1|\ 
 
-.. |IMG1| image:: static/img/WebJive_Architecure_1.png
+.. |IMG1| image:: _static/img/WebJive_Architecure_1.png
    :height: 310 px
    :width: 596 px
 
