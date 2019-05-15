@@ -4,13 +4,13 @@ WebJive Architecture
 
 WebJive is composed of four projects: 
 
-#. **webjive**  \ |LINK1|\ 
+#. **webjive**  .. _link: https://gitlab.com/MaxIV/webjive
 
-#. **WebJive Dashboards**  \ |LINK2|\ 
+#. **WebJive Dashboards**  .. _link: https://gitlab.com/MaxIV/dashboard-repo
 
-#. **WebJive Auth**  \ |LINK3|\ 
+#. **WebJive Auth**  .. _link: https://gitlab.com/MaxIV/webjive-auth
 
-#. **web-maxiv-tangogql**  \ |LINK4|\ 
+#. **web-maxiv-tangogql**  .. _link: https://gitlab.com/MaxIV/web-maxiv-tangogql
 
 In the diagram above, an overview of WebJive architecture has been shown. 
 
@@ -43,21 +43,8 @@ The dashboards created by the user logged in the system, are stored in a \ |LINK
 .. |STYLE10| replace:: **dashboard-repo**
 
 
-.. |LINK1| raw:: html
 
-    <a href="https://gitlab.com/MaxIV/webjive" target="_blank">https://gitlab.com/MaxIV/webjive</a>
 
-.. |LINK2| raw:: html
-
-    <a href="https://gitlab.com/MaxIV/dashboard-repo" target="_blank">https://gitlab.com/MaxIV/dashboard-repo</a>
-
-.. |LINK3| raw:: html
-
-    <a href="https://gitlab.com/MaxIV/webjive-auth" target="_blank">https://gitlab.com/MaxIV/webjive-auth</a>
-
-.. |LINK4| raw:: html
-
-    <a href="https://gitlab.com/MaxIV/web-maxiv-tangogql" target="_blank">https://gitlab.com/MaxIV/web-maxiv-tangogql</a>
 
 .. |LINK5| raw:: html
 
