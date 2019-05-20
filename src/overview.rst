@@ -1,6 +1,6 @@
 
-Webjive User Information (AT2-113)
-**********************************
+Webjive User Information
+************************
 
 The purpose of this guide is to provide new users of Webjive with information on the following:
 
