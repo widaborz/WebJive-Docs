@@ -262,38 +262,38 @@ It is possible to tryout Webjive before installing a local version.  However thi
 .. [#f3]  Description based upon material presented in completing Jira ticket AT2-56  `https://jira.skatelescope.org/browse/AT2-56?jql=text%20~%20%22JSON%22 <https://jira.skatelescope.org/browse/AT2-56?jql=text%20~%20%22JSON%22>`__ 
 .. [#f4]   Description based upon material presented in completing Jira ticket AT2-57  `https://jira.skatelescope.org/browse/AT2-57?jql=text%20~%20%22JSON%22 <https://jira.skatelescope.org/browse/AT2-57?jql=text%20~%20%22JSON%22>`__ 
 
-.. |IMG1| image:: static/img/overview_1.png
+.. |IMG1| image:: _static/img/overview_1.png
    :height: 322 px
    :width: 601 px
 
-.. |IMG2| image:: static/img/overview_2.png
+.. |IMG2| image:: _static/img/overview_2.png
    :height: 324 px
    :width: 601 px
 
-.. |IMG3| image:: static/img/overview_3.png
+.. |IMG3| image:: _static/img/overview_3.png
    :height: 156 px
    :width: 432 px
 
-.. |IMG4| image:: static/img/overview_4.png
+.. |IMG4| image:: _static/img/overview_4.png
    :height: 130 px
    :width: 438 px
 
-.. |IMG5| image:: static/img/overview_5.png
+.. |IMG5| image:: _static/img/overview_5.png
    :height: 341 px
    :width: 601 px
 
-.. |IMG6| image:: static/img/overview_6.png
+.. |IMG6| image:: _static/img/overview_6.png
    :height: 341 px
    :width: 601 px
 
-.. |IMG7| image:: static/img/overview_7.png
+.. |IMG7| image:: _static/img/overview_7.png
    :height: 341 px
    :width: 601 px
 
-.. |IMG8| image:: static/img/overview_8.png
+.. |IMG8| image:: _static/img/overview_8.png
    :height: 341 px
    :width: 601 px
 
-.. |IMG9| image:: static/img/overview_9.png
+.. |IMG9| image:: _static/img/overview_9.png
    :height: 341 px
    :width: 601 px
