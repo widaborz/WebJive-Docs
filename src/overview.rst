@@ -14,7 +14,7 @@ The purpose of this guide is to provide new users of Webjive with information on
 Overview
 ========
 
-Webjive is a web-based program that allows a user to create a visual interface using widgets, which may include charts, numerical indicators or dials that interface to Tango device back end database.  Details of how this is programmatically achieved is presented in a developer biased document which can be found at: <\ |LINK1|\ >
+Webjive is a web-based program that allows a user to create a visual interface using widgets, which may include charts, numerical indicators or dials that interface to Tango device back end database.  Details of how this is programmatically achieved is presented in a developer biased document which can be found at: https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html
 
 Webjive was conceived and originally created by the MAX IV synchrotron facility in Lund, Sweden. During the early User Interface identification and downselect process conducted by the SKA OSO-UI Buttons team, Webjive was highlighted as a possible candidate to be taken forward as the platform upon which the SKA Engineering User Interface could be built.  In early 2019 discussions between MAX IV and OSO-UI Buttons team (overseen by SKA) were held and it was agreed that a collaborate relationship could be taken forward to develop and maintain Webjive.
 
@@ -56,13 +56,13 @@ TangoGQL
 
 The left hand side of the web interface houses the accessible Tango database devices.  It should be possible to use the Tango Controls program Jive to access the same Tango devices database as what is presented in this column.
 
-\ |IMG2|\ **Figure 2. Screenshot to show Webjive screen when user goes to ‘localhost:22484 /testdb/dashboard’ in web browser. The available widgets are located on the right of the screen.** 
+.. |IMG2| image:: _static/img/overview_2.png    :height: 324 px    :width: 601 px **Figure 2. Screenshot to show Webjive screen when user goes to ‘localhost:22484 /testdb/dashboard’ in web browser. The available widgets are located on the right of the screen.** 
 
 
 Linking to TangoGQL
 -------------------
 
-This activity should be viewed as a developer level activity.  As such a procedure to add Tango devices to the linked database is provided in the SKA Developer portal at: \ |LINK2|\ 
+This activity should be viewed as a developer level activity.  As such a procedure to add Tango devices to the linked database is provided in the SKA Developer portal at: https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html
 
 
 Steps to get Webjive running locally\ [#F1]_\ 
@@ -88,7 +88,7 @@ It is assumed that the following are installed and working correctly before atte
 Steps
 ~~~~~
 
-#. Obtain the latest ska-engineering-ui-compose-utils project from the. \ |LINK3|\  repository. The local ReadMe of this repository describes how to get Webjive up and running. Steps 2-4 below summarise the process.
+#. Obtain the latest ska-engineering-ui-compose-utils project from the. https://github.com/ska-telescope/ska-engineering-ui-compose-utils  repository. The local ReadMe of this repository describes how to get Webjive up and running. Steps 2-4 below summarise the process.
 
 #. Launch Webjive and TangoGQL. Using the terminal / command prompt, navigate to the local copy of ska-engineering-ui-compose-utils. Use the following make command to begin the setup process: 
 
@@ -104,7 +104,7 @@ Steps
 
 #. At the top right-hand corner of the webpage (not the browser) click on the login button and enter the following credentials\ [#F2]_\ . 
 
-\ |IMG3|\ 
+.. |IMG3| image:: _static/img/overview_3.png    :height: 156 px    :width: 432 px 
 
     **Figure 4. Screenshot to show what the user should see when Webjive is running but no user logged in.** 
 
@@ -114,7 +114,7 @@ Steps
 
     		Password: abc123
 
-\ |IMG4|\ 
+.. |IMG4| image:: _static/img/overview_4.png    :height: 130 px    :width: 438 px 
 
     **Figure 5. Screenshot to show what the user should see when correctly logged in with the user1 credentials.** 
 
@@ -147,31 +147,31 @@ Click on the Webjive dashboard button from the localhost//:22484/testdb/ page to
 
 Drag and drop the required widget on to the canvas. In this example the ‘attribute plot’ is dragged into the canvas, as shown in Figure 6.
 
-\ |IMG5|\ 
+.. |IMG5| image:: _static/img/overview_5.png    :height: 341 px    :width: 601 px 
 
 **Figure 6. Screenshot showing the ‘attribute plot’ widget just dragged onto the canvas.** 
 
 Once the widget is on the canvas the widget menu is replaced with a configuration table for the attribute plot, as can be seen in Figure 6. In this instance the user has the option to change the time frame of the data that is shown on the plot before the data begins to scroll.  Click on the + labelled ‘Graphs’. Begin to type in the path to the device which is to be connected to be presented with a reducing list of options of available devices (Figure 7). 
 
-\ |IMG6|\ 
+.. |IMG6| image:: _static/img/overview_6.png    :height: 341 px    :width: 601 px 
 
 **Figure 7. Screenshot showing the ‘attribute plot’ tango device options once the + button pressed.** 
 
 Click on that which you which to be displayed in the attribute plot.  In this example we will select ‘sys/tg_test/1’ and opt to retain the Y-axis on the left hand side of the display (Figure 8).
 
-\ |IMG7|\ 
+.. |IMG7| image:: _static/img/overview_7.png    :height: 341 px    :width: 601 px 
 
 **Figure 8. Screenshot showing sys/tg_test/1 being selected from Tango device options.** 
 
 Now the user has to select an attribute(s) to be presented on the attribute plot.  In this example we will opt to present just one attribute on the plot, which will be ‘double scalar’ as can be seen in Figure 9. To add further plots to this ‘attribute plot’, click on the + and repeat the process of selecting the device and attribute followed for ‘double scalar’.
 
-\ |IMG8|\ 
+.. |IMG8| image:: _static/img/overview_8.png    :height: 341 px    :width: 601 px 
 
 **Figure 9. Screenshot showing the double_scalar attribute of ‘sys/tg_test’ being linked to ‘attribute plot’.** 
 
 Click on the ‘Start’ button. The buttons label changes to ‘Edit’, and the connection between the Tango device and the Webjive widget is established.  Data will begin to flow between the device and the widget and be presented on the plot.
 
-\ |IMG9|\ 
+.. |IMG9| image:: _static/img/overview_9.png    :height: 341 px    :width: 601 px 
 
 **Figure 10. Screenshot showing the population of ‘attribute plot’ when the Webjive session is running.** 
 
@@ -197,7 +197,7 @@ Once a Webjive session layout has been created and appropriate links between wid
 Loading the Webjive session\ [#F4]_\ 
 -------------------------------------
 
-To open a saved Webjive layout click on the ‘Load Layout’ button at the top of the canvas. This opens a file browser window in which you can locate the JSON file that is to be loaded. Once the file is selected, click on ‘Open’.  After a short wait the file will have loaded and the desired layout will be presented on the canvas.  This Webjive layout session can then be started by following the process described in the ‘\ |LINK4|\ ’. Alternatively it is possible to modify the layout before starting the session, but it will be necessary to save any new changes.
+To open a saved Webjive layout click on the ‘Load Layout’ button at the top of the canvas. This opens a file browser window in which you can locate the JSON file that is to be loaded. Once the file is selected, click on ‘Open’.  After a short wait the file will have loaded and the desired layout will be presented on the canvas.  This Webjive layout session can then be started by following the process described in the Starting the Webjive Session. Alternatively it is possible to modify the layout before starting the session, but it will be necessary to save any new changes.
 
 Note that it is not possible to load a non Webjive layout JSON file into Webjive.
 
@@ -205,7 +205,7 @@ Note that it is not possible to load a non Webjive layout JSON file into Webjive
 Online Demo
 ===========
 
-It is possible to tryout Webjive before installing a local version.  However this is limited in that the user cannot save or edit canvas or add new Tango devices to the database.  The following link leads to the latest version of the demo available on the SKA repository. \ |LINK5|\ 
+It is possible to tryout Webjive before installing a local version.  However this is limited in that the user cannot save or edit canvas or add new Tango devices to the database.  The following link leads to the latest version of the demo available on the SKA repository. http://integration.engageska-portugal.pt/testdb
 
 .. bottom of content
 
