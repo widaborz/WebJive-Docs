@@ -13,7 +13,7 @@ The purpose of this guide is to provide new users of Webjive with information on
 Overview
 ========
 
-Webjive is a web-based program that allows a user to create a visual interface using widgets, which may include charts, numerical indicators or dials that interface to Tango device back end database.  Details of how this is programmatically achieved is presented in a developer biased document which can be found at: <\ |LINK1|\ >
+Webjive is a web-based program that allows a user to create a visual interface using widgets, which may include charts, numerical indicators or dials that interface to Tango device back end database.  Details of how this is programmatically achieved is presented in a developer biased document which can be found at: https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html
 
 Webjive was conceived and originally created by the MAX IV synchrotron facility in Lund, Sweden. During the early User Interface identification and downselect process conducted by the SKA OSO-UI Buttons team, Webjive was highlighted as a possible candidate to be taken forward as the platform upon which the SKA Engineering User Interface could be built.  In early 2019 discussions between MAX IV and OSO-UI Buttons team (overseen by SKA) were held and it was agreed that a collaborate relationship could be taken forward to develop and maintain Webjive.
 
@@ -71,7 +71,7 @@ The left hand side of the web interface houses the accessible Tango database dev
 Linking to TangoGQL
 -------------------
 
-This activity should be viewed as a developer level activity.  As such a procedure to add Tango devices to the linked database is provided in the SKA Developer portal at: \ |LINK2|\ 
+This activity should be viewed as a developer level activity.  As such a procedure to add Tango devices to the linked database is provided in the SKA Developer portal at: https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html 
 
 
 Steps to get Webjive running locally\ [#F1]_\ 
@@ -97,7 +97,7 @@ It is assumed that the following are installed and working correctly before atte
 Steps
 ~~~~~
 
-#. Obtain the latest ska-engineering-ui-compose-utils project from the. \ |LINK3|\  repository. The local ReadMe of this repository describes how to get Webjive up and running. Steps 2-4 below summarise the process.
+#. Obtain the latest ska-engineering-ui-compose-utils project from the. https://github.com/ska-telescope/ska-engineering-ui-compose-utils  repository. The local ReadMe of this repository describes how to get Webjive up and running. Steps 2-4 below summarise the process.
 
 #. Launch Webjive and TangoGQL. Using the terminal / command prompt, navigate to the local copy of ska-engineering-ui-compose-utils. Use the following make command to begin the setup process: 
 
@@ -233,7 +233,7 @@ Once a Webjive session layout has been created and appropriate links between wid
 Loading the Webjive session\ [#F4]_\ 
 -------------------------------------
 
-To open a saved Webjive layout click on the ‘Load Layout’ button at the top of the canvas. This opens a file browser window in which you can locate the JSON file that is to be loaded. Once the file is selected, click on ‘Open’.  After a short wait the file will have loaded and the desired layout will be presented on the canvas.  This Webjive layout session can then be started by following the process described in the ‘\ |LINK4|\ ’. Alternatively it is possible to modify the layout before starting the session, but it will be necessary to save any new changes.
+To open a saved Webjive layout click on the ‘Load Layout’ button at the top of the canvas. This opens a file browser window in which you can locate the JSON file that is to be loaded. Once the file is selected, click on ‘Open’.  After a short wait the file will have loaded and the desired layout will be presented on the canvas.  This Webjive layout session can then be started by following the process described in the Starting the Webjive Session. Alternatively it is possible to modify the layout before starting the session, but it will be necessary to save any new changes.
 
 Note that it is not possible to load a non Webjive layout JSON file into Webjive.
 
@@ -241,33 +241,7 @@ Note that it is not possible to load a non Webjive layout JSON file into Webjive
 Online Demo
 ===========
 
-It is possible to tryout Webjive before installing a local version.  However this is limited in that the user cannot save or edit canvas or add new Tango devices to the database.  The following link leads to the latest version of the demo available on the SKA repository. \ |LINK5|\ 
-
-.. bottom of content
-
-
-
-.. |LINK1| raw:: html
-
-    <a href="https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html" target="_blank">https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html</a>
-
-.. |LINK2| raw:: html
-
-    <a href="https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html" target="_blank">https://developer.skatelescope.org/projects/ska-engineering-ui-compose-utils/en/latest/device.html</a>
-
-.. |LINK3| raw:: html
-
-    <a href="https://github.com/ska-telescope/ska-engineering-ui-compose-utils" target="_blank">https://github.com/ska-telescope/ska-engineering-ui-compose-utils</a>
-
-.. |LINK4| raw:: html
-
-    <a href="#heading=h.vx43jnyql4k3">Starting the Webjive Session</a>
-
-.. |LINK5| raw:: html
-
-    <a href="http://integration.engageska-portugal.pt/testdb" target="_blank">http://integration.engageska-portugal.pt/testdb</a>
-
-
+It is possible to tryout Webjive before installing a local version.  However this is limited in that the user cannot save or edit canvas or add new Tango devices to the database.  The following link leads to the latest version of the demo available on the SKA repository. http://integration.engageska-portugal.pt/testdb
 
 .. rubric:: Footnotes
 
