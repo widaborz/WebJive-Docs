@@ -125,7 +125,7 @@ The web browser should present a screen similar to that shown in figure 2.
    :height: 156 px
    :width: 432 px
 
-    **Figure 4. Screenshot to show what the user should see when Webjive is running but no user logged in.**
+**Figure 4. Screenshot to show what the user should see when Webjive is running but no user logged in.**
 
 Currently SKA Webjive uses the generic username and password credentials:
 
@@ -133,7 +133,7 @@ Currently SKA Webjive uses the generic username and password credentials:
 
 		Password: abc123
 
-\ |IMG4|\ 
+.\ |IMG4|\ 
 
 .. |IMG4| image:: _static/img/overview_4.png
    :height: 130 px
