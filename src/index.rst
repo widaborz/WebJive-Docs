@@ -46,7 +46,7 @@ For developers
 .. toctree::
     widget
     architecture
-    led_widget
+    led
 
 Authors
 =====
@@ -61,7 +61,7 @@ WebJive was written by the KITS Group at MAX IV Laboratory .
 
    widget
    architecture
-   led_widget
+   led
 
 
 Prerequsities
