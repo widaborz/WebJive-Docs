@@ -35,10 +35,10 @@ It is possible to customize the widget setting in the backend, as the following 
 
 .. bottom of content
 
-.. |IMG1| image:: static/img/Led_Widget_1.png
+.. |IMG1| image:: _static/img/Led_Widget_1.png
    :height: 293 px
    :width: 301 px
 
-.. |IMG2| image:: static/img/Led_Widget_2.png
+.. |IMG2| image:: _static/img/Led_Widget_2.png
    :height: 89 px
    :width: 276 px
