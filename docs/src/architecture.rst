@@ -12,7 +12,7 @@ WebJive is composed of four projects:
 
 #. **web-maxiv-tangogql**  https://gitlab.com/MaxIV/web-maxiv-tangogql
 
-In the diagram above, an overview of WebJive architecture has been shown. 
+In the diagram below, an overview of WebJive architecture has been shown. 
 
 \ |IMG1|\ 
 
